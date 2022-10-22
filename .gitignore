@@ -5,7 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
-
+pix2tex/model/dataset/train/
+pix2tex/model/dataset/test/
+pix2tex/model/dataset/val/
+*.zip
 # Distribution / packaging
 .Python
 build/
@@ -139,4 +142,10 @@ pix2tex/model/checkpoints/**
 .vscode
 .DS_Store
 test/*
+venv/
+wheels/
+pix2tex/wandb/
+selfcheck/
+.idea/
+http/
 
